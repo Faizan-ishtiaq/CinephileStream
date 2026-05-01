@@ -17,7 +17,7 @@ safeQuery
 
 const {data,loading,error}=useFetch(url,400)
 
-const suggestion=data.slice(0.4);
+const suggestion=data.slice(0,4);
 
 
   return (

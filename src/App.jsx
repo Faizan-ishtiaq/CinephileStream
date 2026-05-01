@@ -18,13 +18,13 @@ function App() {
       <Navbar query={query} setQuery={setQuery} />
      
     
-    </div>
+   
      <Routes>
       <Route path='/' element={<Home query={query} />} />
       <Route path='/movies' element={<Movies query={query} />} />
        <Route path='/tv_shows' element={<TvShows query={query} />} />
     </Routes>
-
+ </div>
    
     </BrowserRouter>
   )
