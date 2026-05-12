@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=e50914&height=200&section=header&text=CinephileStream&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Your%20Ultimate%20Movie%20%26%20TV%20Explorer&descAlignY=55&descSize=20" width="100%"/>
 
 <br/>
 
@@ -147,7 +146,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=e50914&height=100&section=footer" width="100%"/>
+
 
 ⭐ **If you like this project, please give it a star!** ⭐
 
