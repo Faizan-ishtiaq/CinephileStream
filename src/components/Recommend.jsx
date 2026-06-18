@@ -12,7 +12,7 @@ const Recommend = () => {
     setReply("");
 
     try {
-     const response = await fetch("https://your-railway-url.up.railway.app/recommend",, {
+     const response = await fetch("https://web-production-01a71.up.railway.app//recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message }),
