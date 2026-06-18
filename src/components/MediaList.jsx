@@ -36,14 +36,6 @@ const MediaList = ({ mediaType, query }) => {
     url,
     safeQuery?500:0
    );
-
-
-
-  
-  
- 
-
-  
   const handleTypeChange = (newType) => {
     setType(newType);
     dispatch({type:"reset"});

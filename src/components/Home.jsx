@@ -1,11 +1,6 @@
 import MovieRow from "./MovieRow"
-
 const Home = ({query}) => {
-
 return(
-
-    
-
 <div className="p-6 bg-[#0f0f0f] min-h-screen">
 
     {
