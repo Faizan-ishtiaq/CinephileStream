@@ -4,6 +4,7 @@ import Movies from './components/Movies'
 import Navbar from './components/Navbar'
 import TvShows from './components/TvShows'
 import Home from './components/Home'
+import Recommend from './components/Recommend'
 
  
 
@@ -22,7 +23,9 @@ function App() {
      <Routes>
       <Route path='/' element={<Home query={query} />} />
       <Route path='/movies' element={<Movies query={query} />} />
-       <Route path='/tv_shows' element={<TvShows query={query} />} />
+      <Route path='/tv_shows' element={<TvShows query={query} />} />
+      <Route path='/recommend' element={<Recommend/>} />
+
     </Routes>
  </div>
    

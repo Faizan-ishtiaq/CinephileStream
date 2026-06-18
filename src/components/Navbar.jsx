@@ -44,6 +44,10 @@ const suggestion=data.slice(0,4);
             <Link to="/tv_shows">TV Shows</Link>
           </li>
 
+          <li className="text-2xl font-bold hover:scale-105 transition">
+            <Link to="/recommend">AI Picks</Link>
+          </li>
+
         </ul>
 
         {/* Search */}
@@ -109,6 +113,13 @@ const suggestion=data.slice(0,4);
             className="text-xl font-bold"
           >
             TV Shows
+          </Link>
+
+          <Link
+          to="/recommend"
+          onClick={() => setMenuOpen(false)}
+          className="text-xl font-bold">
+            AI Picks
           </Link>
 
         </div>
